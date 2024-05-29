@@ -25,9 +25,11 @@ $$
 \tau_u u_t = -\Delta \left( \epsilon_u^2 \Delta u + (1-u)(1+u)u - b_1 v + \frac{b_2}{2} v^2 \right)
 $$
 
-and
+and the other
+
 $$
-\tau_v v_t = -\Delta \left( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \right) - \sigma (v - \overline{v})
+\tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})
 $$
+
 
 
