@@ -17,3 +17,14 @@ where
 $$W\left( u,v\right) =\frac{\left( u^{2}-1\right) ^{2}}{4}+\frac{\left(
 v^{2}-1\right) ^{2}}{4}+b_1 uv-b_{2}\frac{uv^{2}}{2}$$
 
+
+The associated Euler-Lagrange system of equations corresponding to the mixed
+system  are two coupled  CH equations, as follows:
+
+$$
+\tau _{u}u_{t} = -\Delta \left\{ \epsilon _{u}^{2}\Delta u+\left( 1-u\right) \left(
+1+u\right) u-b_1 v+\frac{b_2}{2} v^{2} \right\} \\ 
+
+\tau _{v}v_{t} = -\Delta \left\{ \epsilon _{v}^{2}\Delta v+\left( 1-v\right) \left(
+1+v\right) v-b_1 u +b_2 uv\right\} -\sigma \left( v-\overline{v}\right) 
+$$
