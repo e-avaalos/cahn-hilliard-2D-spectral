@@ -35,6 +35,8 @@ $$
 
 The provided code uses a semi-implicit discretization to compute the solution of Eqs. (2) and (3). It also computes the free energy in Eq. (1), displaying the separate terms in the expression in the same plot. Additionally, it plots the integrand in Eq. (1) to show the energy excess at the interfaces of the particle.
 
+![Figure showing results](images/ilustraCH2Duv.png)
+
 
 ## References
 For further reading, you can refer to the following article:
