@@ -163,7 +163,7 @@ def update_uv(u,v, u_hat, v_hat, dfdu_hat, dfdv_hat, uv_hat, v_hat2):
 
 
 # 3D plot (two components)
-def plot_c(u, v):
+def plot_uv(u, v):
     x = np.arange(0, N, 1)
     y = np.arange(0, N, 1)
     X, Y = np.meshgrid(x, y)
@@ -241,8 +241,6 @@ def plot_mass(totu, totw):
 
 def main():
     u,v =initialize_uv()
-    print('u0 = ',u[0].sum()*DX**2/L**2)
-    print('v0 = ',v[0].sum()*DX**2/L**2)
     u_hat = np.empty((N, N), dtype=np.complex64)
     v_hat = np.empty((N, N), dtype=np.complex64)
     dfdu_hat = np.empty((N, N), dtype=np.complex64)
@@ -250,17 +248,10 @@ def main():
     uv_hat = np.empty((N, N), dtype=np.complex64)
     v_hat2 = np.empty((N, N), dtype=np.complex64)
     u,v,TotEnergy1, TotEnergy2, TotEnergy3, totu, totw, surfEnergy= update_uv(u,v, u_hat, v_hat, dfdu_hat, dfdv_hat, uv_hat, v_hat2)
-    print('u = ',u[-1].sum()*DX**2/L**2)
-    print('v = ',v[-1].sum()*DX**2/L**2)
-    print('relative_errorU = ',np.abs(u[-1].sum()-u[0].sum())/u[0].sum())
-    print('relative_errorV = ',np.abs(v[-1].sum()-v[0].sum())/v[0].sum())
-    plot_c(u,v)
+    plot_uv(u,v)
     plot_surfEnergy(surfEnergy)
     plot_energy(TotEnergy1,TotEnergy2, TotEnergy3)
     plot_mass(totu, totw)
-     
-    
-
 
 
 if __name__ == "__main__":
