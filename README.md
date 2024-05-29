@@ -23,8 +23,10 @@ system  are two coupled  CH equations, as follows:
 
 $$
 \tau _{u}u_{t} = -\Delta \left\{ \epsilon _{u}^{2}\Delta u+\left( 1-u\right) \left(
-1+u\right) u-b_1 v+\frac{b_2}{2} v^{2} \right\} \\ 
-
+1+u\right) u-b_1 v+\frac{b_2}{2} v^{2} \right\}
+$$
+and
+$$
 \tau _{v}v_{t} = -\Delta \left\{ \epsilon _{v}^{2}\Delta v+\left( 1-v\right) \left(
 1+v\right) v-b_1 u +b_2 uv\right\} -\sigma \left( v-\overline{v}\right) 
 $$
