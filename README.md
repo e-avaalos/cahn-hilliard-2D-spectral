@@ -30,3 +30,4 @@ $$
 \tau_v v_t = -\Delta \left( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \right) - \sigma (v - \overline{v})
 $$
 
+
