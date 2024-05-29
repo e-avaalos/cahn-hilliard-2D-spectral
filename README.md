@@ -31,5 +31,6 @@ $$
 \tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})
 $$
 
+We  perform an spectral scheme using a semi-implict discterization to solve these two coupled equations.
 
 
