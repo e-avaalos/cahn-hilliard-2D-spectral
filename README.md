@@ -6,8 +6,8 @@ an energy functional in the following expression:
 
 
 
-$$F \equiv F_{\epsilon_u, \epsilon_v ,\sigma }\left( u,v\right) =\int\limits_{\Omega }\left\{ \frac{%
-\epsilon _{u}^{2}}{2}\left\vert \nabla u\right\vert ^{2}+\frac{%
+$$F_{\epsilon_u, \epsilon_v ,\sigma }\left( u,v\right) =\int\limits_{\Omega }\left\{ \frac{
+\epsilon _{u}^{2}}{2}\left\vert \nabla u\right\vert ^{2}+\frac{
 \epsilon _{v}^{2}}{2}\left\vert \nabla v\right\vert ^{2}+W\left(
 u,v\right) +\frac{\sigma }{2}\left\vert \left( -\Delta \right)
 ^{-1/2}\left( v-\overline{v}\right) \right\vert ^{2}\right\} dr,$$
