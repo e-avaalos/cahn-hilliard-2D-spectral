@@ -1,5 +1,5 @@
 # cahn-hilliard-2D-spectral
-Solution of coupled Cahn-Hilliard equations in multiple dimensions.
+Spectral solution of coupled Cahn-Hilliard equations in multiple dimensions.
 
 The dynamics of the state of the two mixed systems under consideration, $u$ and $v$ evolves to minimize the value of
 an energy functional in the following expression: 
@@ -33,6 +33,6 @@ $$
 \tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})   \tag{4}
 $$
 
-We  perform an spectral scheme using a semi-implict discterization to solve these two coupled equations.
+We perform a spectral scheme using a semi-implicit discretization to solve these two coupled equations.
 
 
