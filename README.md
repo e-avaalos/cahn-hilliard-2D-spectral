@@ -46,7 +46,6 @@ For further reading, you can refer to the following article:
   year      = {2016},
   volume    = {12},
   pages     = {5905-5914},
-  abstract  = {We numerically study a set of coupled Cahn-Hilliard equations as a means to find morphologies of diblock copolymers in three-dimensional spherical confinement. This approach allows us to find a variety of energy minimizers including rings{,} tennis balls{,} Janus balls and multipods among several others. Phase diagrams of confined morphologies are presented. We modify the size of the interface between microphases to control the number of holes in multipod morphologies. Comparison to experimental observation by transmission electron microtomography of multipods in polystyrene-polyisoprene diblock copolymers is also presented.},
   doi       = {10.1039/C6SM00429F},
   issue     = {27},
   publisher = {The Royal Society of Chemistry},
