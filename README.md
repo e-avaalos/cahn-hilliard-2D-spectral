@@ -7,28 +7,30 @@ an energy functional in the following expression:
 
 
 $$
-F_{\epsilon_u, \epsilon_v ,\sigma }(u,v) = \int_{\Omega} \left( \frac{\epsilon_u^2}{2} |\nabla u|^2 + \frac{\epsilon_v^2}{2} |\nabla v|^2 + W(u,v) + \frac{\sigma}{2} \left| (-\Delta)^{-1/2} (v - \overline{v}) \right|^2 \right) \, dr
+F_{\epsilon_u, \epsilon_v ,\sigma }(u,v) = \int_{\Omega} \left( \frac{\epsilon_u^2}{2} |\nabla u|^2 + \frac{\epsilon_v^2}{2} |\nabla v|^2 + W(u,v) + \frac{\sigma}{2} \left| (-\Delta)^{-1/2} (v - \overline{v}) \right|^2 \right) \, dr  \tag{1}
 $$
 
 
 
 where
 
-$$W\left( u,v\right) =\frac{\left( u^{2}-1\right) ^{2}}{4}+\frac{\left(
-v^{2}-1\right) ^{2}}{4}+b_1 uv-b_{2}\frac{uv^{2}}{2}$$
+$$
+W\left( u,v\right) =\frac{\left( u^{2}-1\right) ^{2}}{4}+\frac{\left(
+v^{2}-1\right) ^{2}}{4}+b_1 uv-b_{2}\frac{uv^{2}}{2}   \tag{2}
+$$
 
 
 The associated Euler-Lagrange system of equations corresponding to the mixed
 system  are two coupled  CH equations, as follows:
 
 $$
-\tau_u u_t = -\Delta \left( \epsilon_u^2 \Delta u + (1-u)(1+u)u - b_1 v + \frac{b_2}{2} v^2 \right)
+\tau_u u_t = -\Delta \left( \epsilon_u^2 \Delta u + (1-u)(1+u)u - b_1 v + \frac{b_2}{2} v^2 \right)  \tag{3}
 $$
 
 and the other
 
 $$
-\tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})
+\tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})   \tag{4}
 $$
 
 We  perform an spectral scheme using a semi-implict discterization to solve these two coupled equations.
