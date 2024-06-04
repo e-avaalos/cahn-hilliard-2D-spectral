@@ -33,7 +33,7 @@ $$
 \tau_v v_t = -\Delta \big( \epsilon_v^2 \Delta v + (1-v)(1+v)v - b_1 u + b_2 uv \big) - \sigma (v - \overline{v})   \tag{4}
 $$
 
-The provided code uses a semi-implicit discretization to compute a spectral solution of Eqs. (3) and (4). It also computes the free energy in Eq. (1), displaying the separate terms in the expression in the same plot. Additionally, it plots the integrand in Eq. (1) to show the energy excess at the interfaces of the particle.
+The provided code uses a semi-implicit discretization to compute a spectral solution of Eqs. (3) and (4). It also computes the free energy in Eq. (1), displaying the separate terms in the expression in the same plot.
 
 ![Figure showing results](images/ilustraCH2Duv.png)
 
