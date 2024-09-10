@@ -207,7 +207,7 @@ def main():
     u,v,TotEnergy1, TotEnergy2, TotEnergy3= update_uv(u,v, u_hat, v_hat, dfdu_hat, dfdv_hat, uv_hat, v_hat2)
     plot_uv(u,v)
     plot_energy(TotEnergy1,TotEnergy2, TotEnergy3)
-    print("Done!")
+    print("Done V03!")
 
 
 
